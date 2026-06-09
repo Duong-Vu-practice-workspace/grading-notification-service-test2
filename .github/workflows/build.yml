@@ -5,8 +5,8 @@ on:
     branches: [main]
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/grading-notification-service
-  CONFIG_REPO: Duong-Vu-practice-workspace/grading-notification-service-config-test2
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/grading-notification
+  CONFIG_REPO: Duong-Vu-practice-workspace/grading-notification-config-test2
   SERVICE_NAME: notification-service
 
 jobs:
