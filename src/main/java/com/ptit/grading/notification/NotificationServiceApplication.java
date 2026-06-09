@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan("com.ptit.grading.common.model")
+@EntityScan({"com.ptit.grading.common.model", "com.ptit.grading.notification.model"})
 public class NotificationServiceApplication {
 
     public static void main(String[] args) {
